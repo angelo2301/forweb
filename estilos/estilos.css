@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'square';
+  src:  url(../fonts/square721.ttf) format('truetype'),
+        url(../fonts/square721.woff) format('woff'),
+        url(../fonts/square721.eot) format('embedded-opentype');
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: square;
+}
+
+
+
+
+header{
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: #192837;
+}
+header figure{
+  height: 50px;
+  width: 40px;
+  margin-left: 20px;
+}
+header figure a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/logo1.png);
+  background-size: 40px;
+  background-position: 0px 15px;
+  background-repeat: no-repeat;
+}
+header figure a:hover{
+  background-image: url(../img/logo2.png);
+}
+
+
+
+
+header nav{
+  height: 60px;
+  width: 300px;
+}
+header nav ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 20px 0px 20px;
+  height: 100%;
+}
+header nav ul a{
+  font-size: 0.9em;
+  color: #616B76;
+}
+header nav ul a:hover{
+  color: white;
+}
+.icon-play3{
+  visibility: hidden;
+}
+header nav ul a:hover .icon-play3{
+  visibility: visible;
+}
