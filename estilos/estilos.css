@@ -68,3 +68,52 @@ header nav ul a:hover{
 header nav ul a:hover .icon-play3{
   visibility: visible;
 }
+
+
+
+.portada{
+  background: #192837;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contenedor_portada{
+  width: 1300px;
+  display: flex;
+}
+.contenedor_portada article{
+  flex: 1.1;
+}
+.frase, .autor, .git{
+  color: white;
+  font-size: 1.1em;
+  margin-top: 90px;
+  margin-left: 90px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  width: 300px;
+}
+.autor{
+  margin-top: 40px !important;
+}
+.git{
+  margin-top: 0px !important;
+}
+.git a{
+  font-size: 0.9em;
+  color: #616b76
+}
+.git a:hover{
+  color:white;
+}
+.contenedor_portada figure{
+  flex: 2;
+}
+.contenedor_portada figure img{
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
