@@ -87,7 +87,7 @@ header nav ul a:hover .icon-play3{
   justify-content: flex-start;
   flex-direction: column;
 }
-.contenedor_portada .frase, .autor, .git{
+.frase, .autor, .git{
   color: white;
   margin-top: 16%;
   margin-left: 60px;
