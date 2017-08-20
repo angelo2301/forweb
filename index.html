@@ -6,8 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/iconos.css">
     <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/galeria.css">
   </head>
   <body>
+
+    <div class="fondo" id="fondo">
+      <figure class="contenedor-imagenes" id="figure">
+        <img src="" id="img" class="i" alt="">
+        <div class="derecha" id="derecha"></div>
+        <div class="izquierda" id="izquierda"></div>
+      </figure>
+    </div>
+
     <header>
       <figure>
         <a href="index.html"></a>
@@ -67,10 +77,10 @@
         </div>
         <div class="contenido">
           <div class="contenido_enlaces">
-            <a href="#" class="contenedor_enlaces">Aplicaciones Web</a>
-            <a href="#" class="contenedor_enlaces">Diseño Web</a>
-            <a href="#" class="contenedor_enlaces">Diseño Grafico</a>
-            <a href="#" class="contenedor_enlaces">Fotografia</a>
+            <a class="contenedor_enlaces" id="aplicaciones">Aplicaciones Web</a>
+            <a class="contenedor_enlaces" id="web">Diseño Web</a>
+            <a class="contenedor_enlaces">Diseño Grafico</a>
+            <a  class="contenedor_enlaces">Fotografia</a>
           </div>
         </div>
       </div>
@@ -97,5 +107,7 @@
       <footer>
         <p>Forweb</p>
       </footer>
+
+      <script type="text/javascript" src="script/app.js"></script>
   </body>
 </html>
